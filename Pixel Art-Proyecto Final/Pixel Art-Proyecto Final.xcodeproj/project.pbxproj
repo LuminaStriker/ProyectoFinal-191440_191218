@@ -15,6 +15,7 @@
 		FBB7CD052DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CD042DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITests.swift */; };
 		FBB7CD072DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CD062DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift */; };
 		FBB7CD142DCBB4900029935B /* PixelArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CD132DCBB4900029935B /* PixelArtView.swift */; };
+		FBDD4E0C2DCE5A4500972C4D /* RenderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		FBB7CD042DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel_Art_Proyecto_FinalUITests.swift; sourceTree = "<group>"; };
 		FBB7CD062DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FBB7CD132DCBB4900029935B /* PixelArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelArtView.swift; sourceTree = "<group>"; };
+		FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				FBB7CCED2DCBAE1D0029935B /* Assets.xcassets */,
 				FBB7CCEF2DCBAE1D0029935B /* Preview Content */,
 				FBB7CD132DCBB4900029935B /* PixelArtView.swift */,
+				FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */,
 			);
 			path = "Pixel Art-Proyecto Final";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				FBB7CCEC2DCBAE1C0029935B /* ContentView.swift in Sources */,
 				FBB7CD142DCBB4900029935B /* PixelArtView.swift in Sources */,
 				FBB7CCEA2DCBAE1C0029935B /* Pixel_Art_Proyecto_FinalApp.swift in Sources */,
+				FBDD4E0C2DCE5A4500972C4D /* RenderTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +432,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pixel Art-Proyecto Final/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Necesitas guardar tu imagen";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,6 +461,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Pixel Art-Proyecto Final/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Necesitas guardar tu imagen";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

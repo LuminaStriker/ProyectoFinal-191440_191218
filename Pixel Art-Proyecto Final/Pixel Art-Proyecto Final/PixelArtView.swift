@@ -69,21 +69,36 @@ struct PixelArtView: View {
             }
             
             // Pixel grid with zoom capability
-            ScrollView([.horizontal, .vertical]) {
-                VStack(spacing: 0) {
-                    ForEach(0..<gridSize, id: \.self) { row in
-                        HStack(spacing: 0) {
-                            ForEach(0..<gridSize, id: \.self) { column in
-                                pixelView(row: row, column: column)
-                            }
+            
+            VStack{
+                cuadricula
+                Button("Foto") {
+                    guard let image = ImageRenderer(content: cuadricula).uiImage else {
+                        print ("no sirvio")
+                        return
+                    }
+                    
+                    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+                }
+            }
+        }
+        .padding()
+    }
+    
+    var cuadricula:some View{
+        ScrollView([.horizontal, .vertical]) {
+            VStack(spacing: 0) {
+                ForEach(0..<gridSize, id: \.self) { row in
+                    HStack(spacing: 0) {
+                        ForEach(0..<gridSize, id: \.self) { column in
+                            pixelView(row: row, column: column)
                         }
                     }
                 }
-                .border(Color.gray, width: 1)
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .border(Color.gray, width: 1)
         }
-        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
     
     private func pixelView(row: Int, column: Int) -> some View {
