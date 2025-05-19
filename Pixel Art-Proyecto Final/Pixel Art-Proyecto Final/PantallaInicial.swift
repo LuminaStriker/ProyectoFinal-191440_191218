@@ -11,9 +11,9 @@ struct PantallaInicial: View {
     var body: some View {
         NavigationView{
             VStack{
-                Text("Pixel Maker")
-                    .fontWeight(.bold)
-                    .font(.title)
+                Image(uiImage: #imageLiteral(resourceName: "Pixel-Maker-5-19-2025.png"))
+                    .resizable()
+                    .frame(height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/)
                 NavigationLink{
                     PixelArtView()
                 } label :{

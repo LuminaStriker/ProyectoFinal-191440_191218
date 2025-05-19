@@ -20,6 +20,7 @@
 		FBB7CD142DCBB4900029935B /* PixelArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CD132DCBB4900029935B /* PixelArtView.swift */; };
 		FBDD4E0C2DCE5A4500972C4D /* RenderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */; };
 		FBFF68582DDB903600F6BAD7 /* PantallaInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF68572DDB903600F6BAD7 /* PantallaInicial.swift */; };
+		FBFF685A2DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png in Resources */ = {isa = PBXBuildFile; fileRef = FBFF68592DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		FBB7CD132DCBB4900029935B /* PixelArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelArtView.swift; sourceTree = "<group>"; };
 		FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderTest.swift; sourceTree = "<group>"; };
 		FBFF68572DDB903600F6BAD7 /* PantallaInicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaInicial.swift; sourceTree = "<group>"; };
+		FBFF68592DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pixel-Maker-5-19-2025.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FBB7CCE92DCBAE1C0029935B /* Pixel_Art_Proyecto_FinalApp.swift */,
 				FBB7CCEB2DCBAE1C0029935B /* ContentView.swift */,
 				FBB7CCED2DCBAE1D0029935B /* Assets.xcassets */,
+				FBFF68592DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png */,
 				FBB7CCEF2DCBAE1D0029935B /* Preview Content */,
 				FBB7CD132DCBB4900029935B /* PixelArtView.swift */,
 				FB75A78B2DD24C21002F20E5 /* AnotherAlternativePixelArtViewTest.swift */,
@@ -249,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFF685A2DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png in Resources */,
 				FBB7CCF12DCBAE1D0029935B /* Preview Assets.xcassets in Resources */,
 				FBB7CCEE2DCBAE1D0029935B /* Assets.xcassets in Resources */,
 			);
