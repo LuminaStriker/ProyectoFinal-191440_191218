@@ -7,6 +7,36 @@
 
 /*import SwiftUI
 
+struct CuadriculaView: View {
+    let pixels: [[Color]]
+    let gridSize: Int
+    let pixelSize: CGFloat
+    let currentColor: Color
+    let action: (Int, Int) -> Void
+    
+    var body: some View {
+        ScrollView([.horizontal, .vertical]) {
+            VStack(spacing: 0) {
+                ForEach(0..<gridSize, id: \.self) { row in
+                    HStack(spacing: 0) {
+                        ForEach(0..<gridSize, id: \.self) { column in
+                            Rectangle()
+                                .fill(pixels[row][column])
+                                .frame(width: pixelSize, height: pixelSize)
+                                .border(Color.gray.opacity(0.2), width: 0.5)
+                                .onTapGesture {
+                                    action(row, column)
+                                }
+                        }
+                    }
+                }
+            }
+            .border(Color.gray, width: 1)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+}
+
 struct PixelArtView: View {
     @State private var pixels: [[Color]]
         @State private var currentColor: Color = .blue
@@ -67,36 +97,39 @@ struct PixelArtView: View {
                        }
                 }
             }
-            VStack{
-                cuadricula
-                Button("Foto") {
-                    guard let image = ImageRenderer(content: cuadricula).uiImage else {
-                        print ("no sirvio")
-                        return
-                    }
-                    
-                    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
-                }
-            }
-        }
-        .padding()
-    }
-    
-    var cuadricula:some View{
-        ScrollView([.horizontal, .vertical]) {
-            VStack(spacing: 0) {
-                ForEach(0..<gridSize, id: \.self) { row in
-                    HStack(spacing: 0) {
-                        ForEach(0..<gridSize, id: \.self) { column in
-                            pixelView(row: row, column: column)
+            VStack {
+                        CuadriculaView(
+                            pixels: pixels,
+                            gridSize: gridSize,
+                            pixelSize: pixelSize,
+                            currentColor: currentColor
+                        ) { row, column in
+                            pixels[row][column] = currentColor
+                        }
+                        
+                        Button("Foto") {
+                            let renderer = ImageRenderer(
+                                content: CuadriculaView(
+                                    pixels: pixels,
+                                    gridSize: gridSize,
+                                    pixelSize: pixelSize,
+                                    currentColor: currentColor,
+                                    action: { _, _ in }
+                                )
+                                .frame(width: CGFloat(gridSize) * pixelSize,
+                                       height: CGFloat(gridSize) * pixelSize)
+                            )
+                            
+                            if let image = renderer.uiImage {
+                                UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil)
+                            } else {
+                                print("Failed to create image")
+                            }
                         }
                     }
                 }
+                .padding()
             }
-            .border(Color.gray, width: 1)
-        }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-    }
     
     private func pixelView(row: Int, column: Int) -> some View {
         Rectangle()
@@ -119,4 +152,5 @@ struct PixelArtView: View {
 #Preview {
     PixelArtView()
 }
+
 */

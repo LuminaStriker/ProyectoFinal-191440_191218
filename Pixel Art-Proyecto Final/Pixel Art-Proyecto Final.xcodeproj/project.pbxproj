@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB75A78A2DD24AB8002F20E5 /* NewTestPixelArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75A7892DD24AB8002F20E5 /* NewTestPixelArtView.swift */; };
+		FB75A78C2DD24C21002F20E5 /* AnotherAlternativePixelArtViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB75A78B2DD24C21002F20E5 /* AnotherAlternativePixelArtViewTest.swift */; };
+		FB91D4192DD251EA008E55E6 /* CapasTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91D4182DD251EA008E55E6 /* CapasTest.swift */; };
 		FBB7CCEA2DCBAE1C0029935B /* Pixel_Art_Proyecto_FinalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CCE92DCBAE1C0029935B /* Pixel_Art_Proyecto_FinalApp.swift */; };
 		FBB7CCEC2DCBAE1C0029935B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CCEB2DCBAE1C0029935B /* ContentView.swift */; };
 		FBB7CCEE2DCBAE1D0029935B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB7CCED2DCBAE1D0029935B /* Assets.xcassets */; };
@@ -16,6 +19,7 @@
 		FBB7CD072DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CD062DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift */; };
 		FBB7CD142DCBB4900029935B /* PixelArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CD132DCBB4900029935B /* PixelArtView.swift */; };
 		FBDD4E0C2DCE5A4500972C4D /* RenderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */; };
+		FBFF68582DDB903600F6BAD7 /* PantallaInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF68572DDB903600F6BAD7 /* PantallaInicial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB75A7892DD24AB8002F20E5 /* NewTestPixelArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTestPixelArtView.swift; sourceTree = "<group>"; };
+		FB75A78B2DD24C21002F20E5 /* AnotherAlternativePixelArtViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherAlternativePixelArtViewTest.swift; sourceTree = "<group>"; };
+		FB91D4182DD251EA008E55E6 /* CapasTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapasTest.swift; sourceTree = "<group>"; };
 		FBB7CCE62DCBAE1C0029935B /* Pixel Art-Proyecto Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pixel Art-Proyecto Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7CCE92DCBAE1C0029935B /* Pixel_Art_Proyecto_FinalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel_Art_Proyecto_FinalApp.swift; sourceTree = "<group>"; };
 		FBB7CCEB2DCBAE1C0029935B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +55,7 @@
 		FBB7CD062DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FBB7CD132DCBB4900029935B /* PixelArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelArtView.swift; sourceTree = "<group>"; };
 		FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderTest.swift; sourceTree = "<group>"; };
+		FBFF68572DDB903600F6BAD7 /* PantallaInicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaInicial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +111,11 @@
 				FBB7CCED2DCBAE1D0029935B /* Assets.xcassets */,
 				FBB7CCEF2DCBAE1D0029935B /* Preview Content */,
 				FBB7CD132DCBB4900029935B /* PixelArtView.swift */,
+				FB75A78B2DD24C21002F20E5 /* AnotherAlternativePixelArtViewTest.swift */,
+				FB75A7892DD24AB8002F20E5 /* NewTestPixelArtView.swift */,
 				FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */,
+				FB91D4182DD251EA008E55E6 /* CapasTest.swift */,
+				FBFF68572DDB903600F6BAD7 /* PantallaInicial.swift */,
 			);
 			path = "Pixel Art-Proyecto Final";
 			sourceTree = "<group>";
@@ -265,8 +277,12 @@
 			files = (
 				FBB7CCEC2DCBAE1C0029935B /* ContentView.swift in Sources */,
 				FBB7CD142DCBB4900029935B /* PixelArtView.swift in Sources */,
+				FB91D4192DD251EA008E55E6 /* CapasTest.swift in Sources */,
 				FBB7CCEA2DCBAE1C0029935B /* Pixel_Art_Proyecto_FinalApp.swift in Sources */,
+				FB75A78A2DD24AB8002F20E5 /* NewTestPixelArtView.swift in Sources */,
 				FBDD4E0C2DCE5A4500972C4D /* RenderTest.swift in Sources */,
+				FBFF68582DDB903600F6BAD7 /* PantallaInicial.swift in Sources */,
+				FB75A78C2DD24C21002F20E5 /* AnotherAlternativePixelArtViewTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct Pixel_Art_Proyecto_FinalApp: App {
     var body: some Scene {
         WindowGroup {
-            PixelArtView()
+            PantallaInicial()
         }
     }
 }
