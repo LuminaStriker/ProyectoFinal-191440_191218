@@ -86,6 +86,7 @@ struct PixelArtView: View {
                                 .preference(key: ViewSizeKey.self, value: geometry.size)
                         }
                     )
+                    .padding(10)
                     .onPreferenceChange(ViewSizeKey.self) { size in
                         // This helps ensure the view is properly sized
                         print("Cuadricula size:", size)
@@ -113,7 +114,7 @@ struct PixelArtView: View {
         // Set the controller's view size
         let size = CGSize(
             width: CGFloat(gridSize) * pixelSize,
-            height: CGFloat(gridSize) * pixelSize
+            height: CGFloat(gridSize+5) * pixelSize
         )
         controller.view.bounds = CGRect(origin: .zero, size: size)
         controller.view.backgroundColor = .clear
@@ -165,14 +166,6 @@ struct PixelArtView: View {
                         pixels[row][column] = currentColor
                     }
             )
-    }
-    
-    func takeScreenshot(of view: UIView) -> UIImage? {
-        UIGraphicsBeginImageContextWithOptions(view.bounds.size, false, UIScreen.main.scale)
-        view.drawHierarchy(in: view.bounds, afterScreenUpdates: true)
-        let image = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return image
     }
 }
 
