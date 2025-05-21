@@ -18,6 +18,7 @@
 		FBB7CD052DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CD042DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITests.swift */; };
 		FBB7CD072DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CD062DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift */; };
 		FBB7CD142DCBB4900029935B /* PixelArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB7CD132DCBB4900029935B /* PixelArtView.swift */; };
+		FBB978E02DDE2B33005456C8 /* Simulator Screenshot - iPhone 15 Pro - 2025-05-21 at 09.38.58.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB978DF2DDE2B33005456C8 /* Simulator Screenshot - iPhone 15 Pro - 2025-05-21 at 09.38.58.png */; };
 		FBDD4E0C2DCE5A4500972C4D /* RenderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */; };
 		FBFF68582DDB903600F6BAD7 /* PantallaInicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFF68572DDB903600F6BAD7 /* PantallaInicial.swift */; };
 		FBFF685A2DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png in Resources */ = {isa = PBXBuildFile; fileRef = FBFF68592DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png */; };
@@ -55,6 +56,7 @@
 		FBB7CD042DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel_Art_Proyecto_FinalUITests.swift; sourceTree = "<group>"; };
 		FBB7CD062DCBAE1D0029935B /* Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel_Art_Proyecto_FinalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FBB7CD132DCBB4900029935B /* PixelArtView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelArtView.swift; sourceTree = "<group>"; };
+		FBB978DF2DDE2B33005456C8 /* Simulator Screenshot - iPhone 15 Pro - 2025-05-21 at 09.38.58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screenshot - iPhone 15 Pro - 2025-05-21 at 09.38.58.png"; sourceTree = "<group>"; };
 		FBDD4E0B2DCE5A4500972C4D /* RenderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderTest.swift; sourceTree = "<group>"; };
 		FBFF68572DDB903600F6BAD7 /* PantallaInicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantallaInicial.swift; sourceTree = "<group>"; };
 		FBFF68592DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pixel-Maker-5-19-2025.png"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				FBB7CCEB2DCBAE1C0029935B /* ContentView.swift */,
 				FBB7CCED2DCBAE1D0029935B /* Assets.xcassets */,
 				FBFF68592DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png */,
+				FBB978DF2DDE2B33005456C8 /* Simulator Screenshot - iPhone 15 Pro - 2025-05-21 at 09.38.58.png */,
 				FBB7CCEF2DCBAE1D0029935B /* Preview Content */,
 				FBB7CD132DCBB4900029935B /* PixelArtView.swift */,
 				FB75A78B2DD24C21002F20E5 /* AnotherAlternativePixelArtViewTest.swift */,
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBFF685A2DDB999800F6BAD7 /* Pixel-Maker-5-19-2025.png in Resources */,
+				FBB978E02DDE2B33005456C8 /* Simulator Screenshot - iPhone 15 Pro - 2025-05-21 at 09.38.58.png in Resources */,
 				FBB7CCF12DCBAE1D0029935B /* Preview Assets.xcassets in Resources */,
 				FBB7CCEE2DCBAE1D0029935B /* Assets.xcassets in Resources */,
 			);
